@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts">
+      <UniqueIdentifier>{f35ea92a-e6a9-4e5f-9624-d533442c90f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene101">
+      <UniqueIdentifier>{9488e2c8-a9c3-49c7-8550-184d629f5e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Scene101">
+      <UniqueIdentifier>{f4c719b6-1080-4fbb-8310-abdb93b81e3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene101\Scene101.cpp">
+      <Filter>src\Scene101</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene101\Scene101.h">
+      <Filter>src\Scene101</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\HKYuanMini.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\fonts\couriernew.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\couriernew48.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\hansans.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\hansans64.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\scene101\scene101.plist">
+      <Filter>resource\Scene101</Filter>
+    </None>
+    <None Include="..\Resources\scene101\scene101.tps">
+      <Filter>resource\Scene101</Filter>
+    </None>
+    <None Include="..\Resources\fonts\obov.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\UKgood.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\fonts\couriernew.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\couriernew48.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\hansans.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\hansans64_0.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\bean01.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\bean02.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\bean03.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\bean04.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\bg.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber01.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber02.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber03.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber04.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber05.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber06.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber07.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuber08.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuberbtn1.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuberbtn2.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\cuberbtn3.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\replaybtn.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\returnbtn.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\s101bgimg.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\s101line01.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\s101line02.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\scene101.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\sr_f_triangle.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\sr_line1.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\scene101\sr_line2.png">
+      <Filter>resource\Scene101</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\UKgood_0.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\obov_0.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\scene101\bmfontexample.txt">
+      <Filter>resource\Scene101</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\scene101\strings.xml">
+      <Filter>resource\Scene101</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

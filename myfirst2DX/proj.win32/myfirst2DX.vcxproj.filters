@@ -27,9 +27,6 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\Scene101\Scene101.cpp">
       <Filter>src\Scene101</Filter>
     </ClCompile>
@@ -39,9 +36,6 @@
       <Filter>win32</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Scene101\Scene101.h">
@@ -54,36 +48,16 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="..\Resources\fonts\arial.ttf">
-      <Filter>resource\fonts</Filter>
-    </Font>
-    <Font Include="..\Resources\fonts\HKYuanMini.ttf">
-      <Filter>resource\fonts</Filter>
-    </Font>
-    <Font Include="..\Resources\fonts\Marker Felt.ttf">
-      <Filter>resource\fonts</Filter>
-    </Font>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Resources\fonts\couriernew.fnt">
-      <Filter>resource\fonts</Filter>
-    </None>
-    <None Include="..\Resources\fonts\couriernew48.fnt">
-      <Filter>resource\fonts</Filter>
-    </None>
-    <None Include="..\Resources\fonts\hansans.fnt">
-      <Filter>resource\fonts</Filter>
-    </None>
-    <None Include="..\Resources\fonts\hansans64.fnt">
-      <Filter>resource\fonts</Filter>
-    </None>
     <None Include="..\Resources\scene101\scene101.plist">
       <Filter>resource\Scene101</Filter>
     </None>
     <None Include="..\Resources\scene101\scene101.tps">
       <Filter>resource\Scene101</Filter>
     </None>
-    <None Include="..\Resources\fonts\obov.fnt">
+    <None Include="..\Resources\fonts\couriernew32.fnt">
+      <Filter>resource\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\hansans48.fnt">
       <Filter>resource\fonts</Filter>
     </None>
     <None Include="..\Resources\fonts\UKgood.fnt">
@@ -91,18 +65,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\Resources\fonts\couriernew.png">
-      <Filter>resource\fonts</Filter>
-    </Image>
-    <Image Include="..\Resources\fonts\couriernew48.png">
-      <Filter>resource\fonts</Filter>
-    </Image>
-    <Image Include="..\Resources\fonts\hansans.png">
-      <Filter>resource\fonts</Filter>
-    </Image>
-    <Image Include="..\Resources\fonts\hansans64_0.png">
-      <Filter>resource\fonts</Filter>
-    </Image>
     <Image Include="..\Resources\scene101\bean01.png">
       <Filter>resource\Scene101</Filter>
     </Image>
@@ -178,10 +140,13 @@
     <Image Include="..\Resources\scene101\sr_line2.png">
       <Filter>resource\Scene101</Filter>
     </Image>
-    <Image Include="..\Resources\fonts\UKgood_0.png">
+    <Image Include="..\Resources\fonts\couriernew32_0.png">
       <Filter>resource\fonts</Filter>
     </Image>
-    <Image Include="..\Resources\fonts\obov_0.png">
+    <Image Include="..\Resources\fonts\hansans48_0.png">
+      <Filter>resource\fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\fonts\UKgood_0.png">
       <Filter>resource\fonts</Filter>
     </Image>
   </ItemGroup>
@@ -194,5 +159,16 @@
     <Xml Include="..\Resources\scene101\strings.xml">
       <Filter>resource\Scene101</Filter>
     </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\HKYuanMini.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
